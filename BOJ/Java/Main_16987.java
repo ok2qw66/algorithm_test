@@ -46,11 +46,11 @@ public class Main_16987 {
 				if(egg[idx][0] <= 0) breakEgg++;
 				if(egg[i][0] <= 0) breakEgg++;
 				
-				System.out.println("go > "+idx+"->"+i);
-				for(int k = 0; k<N;k++) {
-					System.out.print(egg[k][0]+" ");
-				}
-				System.out.println("===============");
+//				System.out.println("go > "+idx+"->"+i);
+//				for(int k = 0; k<N;k++) {
+//					System.out.print(egg[k][0]+" ");
+//				}
+				//System.out.println("===============");
 				breakEgg(idx+1, breakEggCnt+breakEgg);
 				
 				egg[idx][0] += egg[i][1];
